@@ -2,7 +2,7 @@ import java.awt.Color;
 
 public class Editor4 {
     public static void main (String[] args) {
-		Color[][] imageIn = Runigram.read("thor.ppm");
+		Color[][] imageIn = Runigram.read("xmen.ppm");
         Color[][] imageOut = Runigram.grayScaled(imageIn);
 
         Runigram.setCanvas(imageIn);
